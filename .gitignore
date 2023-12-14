@@ -1,0 +1,22 @@
+# Secrets
+configuration.yml
+
+# Dependencies
+node_modules
+.terraform
+
+# Generated
+openapi-spec.json
+
+# Build outputs
+dist
+
+## Editor (VS Code)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## System files (Mac)
+.DS_Store

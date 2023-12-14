@@ -1,0 +1,26 @@
+.git
+.husky
+.vscode
+node_modules
+.dockerignore
+.editorconfig
+.lintstagedrc.mjs
+.npmrc
+.nvmrc
+.prettierignore
+.prettierrc.yaml
+commitlint.config.js
+
+## Deep glob exclude
+**/Dockerfile
+
+# Build output
+dist
+
+
+# Generated 
+openapi-spec.json
+tsconfig.tsbuildinfo
+
+# System files
+.DS_Store
